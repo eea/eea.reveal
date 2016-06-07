@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Antonio De Marinis",
+    "file": "http://www.eea.europa.eu/about-us/who/eea-logos/eea-logos-1/eea_uk.gif",
+    "link": "http://www.eea.europa.eu"
+  },
+  "text": {
+    "title": "Taskman Society",
+    "more": "Welcome to Taskman society. The graph shows the users of taskman. Each node represent one individ and each edge represent a ticket. An edge from node A to node B means that Person A has created a ticket and assigned to Person B. The more tickets are created or assigned to a person, the larger the node is.",
+    "intro": "Welcome to Taskman society. The graph shows the users of Taskman and their network."
+  },
+  "legend": {
+    "edgeLabel": "Tickets",
+    "colorLabel": "Society cluster",
+    "nodeLabel": "Person"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

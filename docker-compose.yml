@@ -1,0 +1,6 @@
+netviz:
+  image: nginx
+  volumes:
+    - ./networks:/usr/share/nginx/html:ro
+  ports:
+    - ":80"
