@@ -1,5 +1,7 @@
 # eea.reveal
 
+![Gephi](https://github.com/eea/eea.reveal/raw/master/docs/network-example.png)
+
 **Beta**
 
 This tool is used to visualise network data on the web and reveal hidden clusters and other relations within the network.
