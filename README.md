@@ -27,6 +27,4 @@ $ sudo docker-compose up -d
 
 An nginx server will start up on a random available port on the host. Do a ```docker-compose ps``` to see which port has been assigned. 
 
-Go to http://localhost:PORT/taskman-society
-OR
-Go to http://localhost:PORT/gexf-js
+Go to http://localhost:PORT/ and select one of the examples.
